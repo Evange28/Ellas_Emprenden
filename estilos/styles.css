@@ -1,0 +1,70 @@
+*{ /* margenes generales */
+    margin: 0;
+    padding: 0;
+    }
+.contenedor {
+    display: flex; /* Define el contenedor como un contenedor flexible */
+    justify-content: space-around; /* Alinea los elementos con espacio alrededor */
+    align-items: center; /* Alinea los elementos verticalmente en el centro */
+    height: 40px; /* Altura del contenedor */
+    background-color: #ff6fa9 /* Color de fondo del contenedor */
+    }
+    
+        /* Estilo para los elementos dentro del contenedor */
+.elemento {
+    color: white; /* Color del texto de los elementos */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    border-radius: 8px;
+    padding: 8px; /* Relleno de los elementos */
+    text-decoration: none; /* Quita el subrayado predeterminado */
+    transition: background-color 1s; /* Agrega una transición suave */
+    }
+
+    /* Estilo para el enlace cuando el cursor pasa sobre él */
+a:hover {
+    background-color: #005f81; /* Cambia el color de fondo */
+    border-radius: 8px;
+    border-style: none;
+}
+.centrado { /* Logo */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+.contenedor2 { /* parrafos */
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    height: 250px;
+    background-color: #FFD0CC;
+    text-align: center; 
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:medium;
+    gap: 10px;
+    }
+
+.elemento2 {
+        color: black; 
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: medium;
+        border-radius: 8px;
+        padding: 8px; 
+        text-decoration: none; 
+        transition: background-color 1s;
+    }
+h1 { /* titulo 1 */
+    background-color: #005f81;
+    color: #F2F2F2;
+    text-align: center; 
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:larger;
+    }
+h2 { /* titulo 2*/
+    text-align: center; 
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:larger;
+    background-color: #FFD0CC;
+    background-size: 300px;
+    }
